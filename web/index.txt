@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bakr Shaheen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <button id="button" onclick="print_page()">Print My CV</button>
+
+    <h1 id="name" class="center" onclick="name()">
+      Bakr Taha Shaheen
+    </h1>
+    <p class="center" id="paragraph">
+      The Networks and Information Security Program - - Given the increasing importance of computer networks and the Internet and their increasing reliance on building secure smart systems in various aspects of life, the Computer Networks and Information Security Branch is looking forward to achieving a leading role in teaching, research and training in the fields of computer networks and methods of protecting networks and information . In addition to providing a distinguished level of education that elevates the student to the global level so that he is able to excel, compete and innovate, so that he can identify the sites of the attack and its source, assess the extent of damage or loss of information, and build design strategies that ensure data preservation and recoverability. work fields: Managing computer networks and designing their infrastructure. Implementation and installation of computer networks. Designing security policies, implementing security measures and developing mechanisms to ensure its implementation.
+    </p>
+
+    <a href="https://www.facebook.com/bakr.shaheen.5/" class="center"
+      >Visit My facebook account</a
+    >
+    <br />
+
+    
+    <img src="information security.jpg" width="500" height="333" class="center">
+
+    <ol
+      class="center"
+      onmouseover="education(this, 1)"
+      onmouseout="education(this,0)"
+    >
+      <li>I studied at al salahia school</li>
+      <li>I got an average of 80 in the scientific major</li>
+      <li>I chose networking major at An-Najah National University</li>
+    </ol>
+
+    <ol class="center">
+       <li>reach</li> 
+       <li>clothing store</li>
+       <li>al-arz factory</li>
+    </ol>
+
+    <ol class="center">
+      <li>chess</li>
+      <li>biliardo</li>
+      <li>Driving cars</li>
+      
+    </ol>
+  </body>
+  <script>
+    function print_page() {
+      window.print();
+    }
+    function name() {
+      window.alert("Welcome, please let me know if you have any questions");
+    }
+
+    function education(element, flag) {
+      if (flag) element.style.color = "red";
+      else element.style.color = "black";
+    }
+  </script>
+</html>

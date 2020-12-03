@@ -1,0 +1,28 @@
+#paragraph {
+  background-color: rgb(7, 105, 147);
+  color: white;
+  font-family: courier;
+}
+
+#name {
+  font-size: 300%;
+}
+.center {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  list-style-position: inside;
+}
+
+#button {
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 10px;
+  float: right;
+  cursor: pointer;
+}
+ol {
+  width: 300px;
+}
